@@ -42,5 +42,6 @@ simg.addEventListener("click",function()
     document.querySelector("form").style.width="450px";
     document.querySelector("form").style.marginLeft="110px";
     document.querySelector("button").style.marginLeft="150px";
+    tv.style.border="3px solid grey";
     clearInterval(myinterval);
 })
