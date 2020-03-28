@@ -1,0 +1,36 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/17.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.search
+{
+    height: 200px;
+}
+.tv img
+{
+    height: 400px;
+    width: 650px;
+    padding: 0;
+}
+.tvimgs
+{
+    /* background-color: red; */
+    height: 360px;
+    width: 300px;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search img
+{
+    height: 150px;
+    width: 150px;
+    margin-top: 150px;
+    margin-left: 50px;
+    
+}
