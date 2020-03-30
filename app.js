@@ -18,7 +18,15 @@ app.post("/search",function(req,res)
     console.log(url);
     request(url,function(error,response,body)
     {
-        res.render("results.ejs",body.results);
+        body=JSON.parse(body);
+        if(body.response!="success")
+        {
+            res.send("<h1>Not FOUND 404!!! <h1> ")
+        }
+        else
+       res.render("results",{
+           results: body.results
+       });
     })
 })
 

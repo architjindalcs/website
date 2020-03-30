@@ -26,11 +26,9 @@ body
     background-repeat: no-repeat;
 }
 
-.search img
+.search1 button
 {
-    height: 150px;
-    width: 150px;
-    margin-top: 150px;
-    margin-left: 50px;
+    margin-left: 200px;
+    margin-top: 300px;
     
 }

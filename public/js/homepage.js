@@ -32,16 +32,16 @@ var myinterval=setInterval(function()
     }
     tv.style.backgroundImage=list[i];
 },1500)
-var simg=document.querySelector(".search img");
+var simg=document.querySelector(".search1 button");
 var neww="url('images/tv.png')";
 var body=document.querySelector("body");
 simg.addEventListener("click",function()
 {
-    tv.innerHTML="<form method='POST' action='/search'> <div class='form-group'> <input type='text' name='query' class='form-control' placeholder='Search...'> </div> <button type='submit' class='btn btn-primary'>Search🔎</button>";
+    tv.innerHTML="<form method='POST' action='/search'> <div class='form-group'> <input type='text' name='query' class='form-control' placeholder='Search...'> </div> <button type='submit' class='btn btn-primary abc'>Search🔎</button>";
     document.querySelector("form").style.marginTop="40px";
     document.querySelector("form").style.width="450px";
     document.querySelector("form").style.marginLeft="110px";
-    document.querySelector("button").style.marginLeft="150px";
+    document.querySelector(".abc").style.marginLeft="150px";
     tv.style.border="3px solid grey";
     clearInterval(myinterval);
 })

@@ -1,0 +1,70 @@
+body
+{
+    background-image: url("/images/res.jpg");
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+.res
+{
+    margin-top: 20px;
+    border: 3px solid grey;
+    background-color: black;
+    border-radius: 5px;
+}
+.container
+{
+    margin-top: 350px;
+}
+.res img
+{
+    display: block;
+    height: 360px;
+    width: 360px;
+    margin: auto;
+}
+.res h1
+{
+   
+    margin-left: auto;
+    margin-top: 10px;
+    color: white;
+    font-size: 35px;
+}
+.res img:hover
+{
+    height: 340px;
+    width: 340px;
+}
+
+.in,.st,.sp
+{
+    color: white;
+}
+.spin,.spst,.spsp
+{
+    /* height: 20px; */
+    /* background-color: green; */
+    visibility: hidden;
+}
+
+.spin1,.spst1,.spsp1
+{
+    height: 20px;
+    max-width: 5px;
+    /* background-color: green; */
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.spin1
+{
+    background-color: green;
+}
+.spst1
+{
+    background-color: red;
+}
+.spsp1
+{
+    background-color: royalblue;
+}
