@@ -36,7 +36,7 @@ app.get("/play",function(req,res)
 app.get("/:id",function(req,res)
 {
     const url="https://superheroapi.com/api/2404450309797255/"+req.params.id;
-    // console.log(url);
+     console.log(url);
     request(url,function(error,response,body)
     {
         body=JSON.parse(body);
