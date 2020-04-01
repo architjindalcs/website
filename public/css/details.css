@@ -1,0 +1,39 @@
+body
+{
+    background-color: black;
+}
+img
+{
+    margin-top: 45px;
+    height: 500px;
+    border: 2px solid gray;
+}
+img:hover
+{
+    border: 2px solid blue;
+    height: 550px;
+}
+h1
+{
+    color: green;
+    margin-top: 45px;
+}
+h1:hover
+{
+    color: slateblue;
+}
+h2
+{
+    font-size: 35px;
+    color:blue;
+    font-family: 'Gotu', sans-serif;
+}
+.node
+{
+    color: red;
+    
+}
+.node:hover
+{
+    color: green;
+}

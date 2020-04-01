@@ -15,7 +15,7 @@ app.post("/search",function(req,res)
 {
     const name=encodeURIComponent(req.body.query);
     const url="https://superheroapi.com/api/2404450309797255/search/"+name;
-    console.log(url);
+    // console.log(url);
     request(url,function(error,response,body)
     {
         body=JSON.parse(body);
@@ -27,6 +27,22 @@ app.post("/search",function(req,res)
        res.render("results",{
            results: body.results
        });
+    })
+})
+app.get("/play",function(req,res)
+{
+    res.render("quizgame");
+})
+app.get("/:id",function(req,res)
+{
+    const url="https://superheroapi.com/api/2404450309797255/"+req.params.id;
+    // console.log(url);
+    request(url,function(error,response,body)
+    {
+        body=JSON.parse(body);
+        res.render("details",{
+            results: body
+        });
     })
 })
 

@@ -1,0 +1,84 @@
+body
+{
+    height: 600px;
+    background: url("/images/mc.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.a
+{
+    font-size: 30px;
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+}
+.blank
+{
+    height: 400px;
+}
+h1:hover
+{
+    background-color: green;
+}
+.com
+{
+    height: 45px;
+}
+.invis
+{
+    visibility: hidden;
+}
+.extra
+{
+    background: url("/images/check.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h3
+{
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 40px;
+}
+.ques h2
+{
+    background: url("/images/qb.jpg");
+    /* background-color: darkblue; */
+    color: floralwhite;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 600px;
+    
+}
+.ques h2
+{
+    font-size: 32px;
+    text-align: center;
+}
+
+.op1 h1,.op2 h1, .op3 h1, .op4 h1
+{
+    background-color: black;
+    color: floralwhite;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.options
+{
+    margin-top: 20px;
+}
+.brown
+{
+    background-color: brown;
+}
