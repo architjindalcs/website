@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("/images/res.jpg");
+    /* background-image: url("/images/res.jpg"); */
     background-size: contain;
     background-repeat: repeat-y;
 }
@@ -13,19 +13,20 @@ body
 }
 .container
 {
-    margin-top: 350px;
+    margin-top: 200px;
 }
 .res img
 {
     display: block;
-    height: 360px;
-    width: 360px;
+    height: 350px;
+    width: 350px;
     margin: auto;
 }
 .res h1
 {
    
     margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
     color: white;
     font-size: 35px;
@@ -35,21 +36,25 @@ body
     height: 340px;
     width: 340px;
 }
-
+.res h1:hover
+{
+    font-size: 45px;
+    color: firebrick;
+}
 .in,.st,.sp
 {
     color: white;
 }
-.spin,.spst,.spsp
+.spin,.spst,.spsp,.sppo
 {
     /* height: 20px; */
     /* background-color: green; */
     visibility: hidden;
 }
 
-.spin1,.spst1,.spsp1
+.spin1,.spst1,.spsp1,.sppo1
 {
-    height: 20px;
+    
     max-width: 5px;
     /* background-color: green; */
     margin-top: 10px;
@@ -58,13 +63,61 @@ body
 }
 .spin1
 {
-    background-color: green;
+    background-color: red;
+    color: white;
+}
+.spin1:hover
+{
+    opacity: 0.75;
+}
+.spst1:hover
+{
+    opacity: 0.75;
+}
+.spsp1:hover
+{
+    opacity: 0.75;
 }
 .spst1
 {
-    background-color: red;
+    background-color: green;
+    color: white;
 }
 .spsp1
 {
     background-color: royalblue;
+    color: white;
+}
+.sppo1
+{
+    background-color: darkslategray;
+    color: white;  
+}
+.spin1 p
+{
+  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;;
+    margin-left: 10px;
+}
+.spst1 p
+{
+  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;;
+    margin-left: 10px;
+}
+.spsp1 p
+{
+    /* padding: 1px; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;;
+    margin-left: 10px;
+}
+.abcc img
+{
+    height: 130px;
+    width: 150px;
+    margin-left: 580px;
+    margin-top: 190px;
 }

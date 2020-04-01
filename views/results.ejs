@@ -8,6 +8,10 @@
     <title>Results</title>
   </head>
   <body>
+    <div class="row abcc">
+      <img src="/images/butt.png" alt="">
+      </div>
+   
       <div class="container">
           <div class="row">
             <% for(var i=0; i!=results.length;i++){ %>
@@ -17,16 +21,18 @@
                 <div class="col-lg-4 res">
 
                         <img src="<%= results[i].image.url %>" alt="" >
-                        <h1 class="display-4">🏷<%= results[i].name %></h1>
+                        <h1 class="display-4"><%= results[i].name %></h1>
                         <span class="spin"><%= results[i].powerstats.intelligence %></span>
                         <span class="spst"><%= results[i].powerstats.strength %></span>
+                        <span class="sppo"><%= results[i].powerstats.power %></span>
                         <span class="spsp"><%= results[i].powerstats.speed %></span><br>
 
-                        <div class="spin1"></div>
+                        <div class="spin1"><p>Intelligence: <%= results[i].powerstats.intelligence %> </p></div>
                        
-                        <div class="spst1"></div>
+                        <div class="spst1"><p>Strength: <%= results[i].powerstats.strength %></p></div>
                 
-                        <div class="spsp1"></div>
+                        <div class="spsp1"><p>Speed: <%= results[i].powerstats.speed %></p></div>
+                       
                         <br>
 
 
