@@ -33,7 +33,7 @@ app.get("/play",function(req,res)
 {
     res.render("quizgame");
 })
-app.get("/:id",function(req,res)
+app.get("details/:id",function(req,res)
 {
     const url="https://superheroapi.com/api/2404450309797255/"+req.params.id;
      console.log(url);
