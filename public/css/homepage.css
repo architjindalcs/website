@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
-    background-image: url("/images/17.jpg");
+    background-image: url("/public/images/17.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
